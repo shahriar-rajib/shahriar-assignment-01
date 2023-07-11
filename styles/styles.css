@@ -16,17 +16,17 @@
 }
 .Lorem{
     font-size:xx-large;}
-    .buy{
+.buy{
         display: inline-flex;
         padding: 20px 43px;
         align-items: flex-start;
         gap: 10px;
         border-radius: 8px;
         background: #E55473;}
-    .header-text{
+.header-text{
         margin-left: 200px;
         margin-right: 200px;}
-    .featured h2{
+.featured h2{
         text-align: center;
         color: #272727;
         text-align: center;
@@ -35,7 +35,7 @@
         font-style: normal;
         font-weight: 800;
         line-height: normal;}
-    .featured p{ 
+.featured p{ 
         color: rgba(39, 39, 39, 0.60);
         text-align: center;
         font-family: Lato;
@@ -43,6 +43,38 @@
         font-style: normal;
         font-weight: 400;
         line-height: 30px;}
-        .featured{
-            margin: 200px 20px;
-        }
+.featured{
+        margin: 200px 20px;}
+.apic {
+        width: 310px;
+        height: 428px;
+        flex-shrink: 0;   
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat; 
+        width: 464px;
+        height: 538px;
+        flex-shrink: 0;
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(167, 33, 98, 0.15);}
+.bpic{
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);}
+.cpic{
+    width: 314px;
+    height: 471px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);}
+/*.apic .bpic .cpic {
+    align: center;
+    display:flex}

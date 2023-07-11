@@ -1,0 +1,48 @@
+.header-container{
+    height: 1000px;
+    background-color: pink;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.header-text h1{ 
+    color: #FFF;
+    font-family: Lato;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800px;
+    line-height: normal;
+}
+.Lorem{
+    font-size:xx-large;}
+    .buy{
+        display: inline-flex;
+        padding: 20px 43px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 8px;
+        background: #E55473;}
+    .header-text{
+        margin-left: 200px;
+        margin-right: 200px;}
+    .featured h2{
+        text-align: center;
+        color: #272727;
+        text-align: center;
+        font-family: Lato;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;}
+    .featured p{ 
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;}
+        .featured{
+            margin: 200px 20px;
+        }

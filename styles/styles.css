@@ -56,6 +56,14 @@
 
   
 }
+
+.apic h5{
+  padding: 10px;
+  text-align: center;
+  text-decoration-line: underline;
+  font-size: 24px;
+}
+
 .flowers-container{
         display: flex;
         justify-content: space-around;
@@ -65,18 +73,36 @@
         background: #FFF;
         padding: 10px;
 }
+.left{
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 400px;
+  height: 438px;
+}
+.middle{
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 400px;
+  height: 438px;
+}
+.right{
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 400px;
+  height: 438px;
+}
 
 .apic {
-        width: 310px;
-        height: 428px;
-        flex-shrink: 0;   
-        background: lightgray 50% / cover no-repeat; 
-        width: 464px;
-        height: 538px;
-        padding:10px;
-        gap:15px;
-        border-radius: 300px 300px 0px 0px;
-        background: rgba(167, 33, 98, 0.15);}
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 400px;
+  height: 438px;
+  padding: 10px;
+  gap: 15px; 
+}
+
+
+
 /*.bpic {
     width: 370px;
     height: 370px;
@@ -222,3 +248,8 @@
     font-weight: 400;
     padding-top: 20px;
   }
+
+
+  
+
+

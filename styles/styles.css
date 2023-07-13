@@ -53,8 +53,6 @@
 .flowers{
   padding: 10px 10px;
   gap: 15px;
-
-  
 }
 
 .apic h5{
@@ -100,12 +98,6 @@
   padding: 10px;
   gap: 15px; 
 }
-
-
-
-
-
-
 
 .container-3 {
   background: rgba(229, 84, 115, 0.05);
@@ -153,12 +145,6 @@ p{
   padding-right: 50px;
 }
 
-
-
-
-
-
-
 .footer-section{
   align-items: center;
   justify-content: center;
@@ -195,7 +181,7 @@ p{
   text-align: center;
 }
 .footer-title{
-color: white;
+  color: white;
   
 }
 
@@ -255,10 +241,10 @@ color: white;
   font-weight: 700;
   line-height: normal;}
  .email{
-    background: #FFF;
-            width: 400px;
-            height: 44px;
-            border: none
+  background: #FFF;
+  width: 400px;
+  height: 44px;
+  border: none
     }
 
 
